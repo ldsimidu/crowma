@@ -1,7 +1,16 @@
-@font-face {
-    font-family: 'Summer';
-    src: url('Fontes/Summer\ Dream\ Sans\ DEMO\ .ttf') format('truetype');
+.syncopate-regular {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
+  
+  .syncopate-bold {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
 
   .secao:before{
     content: '';
@@ -70,7 +79,7 @@ body{
 .navbar {
     position: fixed;
     padding-top: 50px;
-    font-family: 'Summer', sans-serif ;
+    font-family: 'Syncopate', sans-serif ;
     font-size: 18px;
     top: 0;
     left: 0;
@@ -149,7 +158,7 @@ body{
 
 
 .gradient {
-    font-family: 'Summer', sans-serif ;
+    font-family: 'Syncopate', sans-serif ;
     background-image: linear-gradient(to right, #420061 0%,#d30cd3 50%, #ff3eff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -164,7 +173,7 @@ body{
     text-align: center;
     padding-top: 185px;
     color: white;
-    font-family: 'Summer', sans-serif ;
+    font-family: 'Syncopate', sans-serif ;
 }
 
 .principal-header h2{
@@ -194,7 +203,7 @@ body{
 
 .section-two h1{
     font-size: 25px;
-    font-family: 'Summer';
+    font-family: 'Syncopate';
     
 }
 
@@ -222,7 +231,7 @@ body{
 
 .section-three h1{
     font-size: 25px;
-    font-family: 'Summer';
+    font-family: 'Syncopate';
 }
 
 .section-three p{
@@ -255,7 +264,7 @@ body{
 .left-content h1{
     font-size: 60px;
     word-spacing: 2%;
-    font-family: 'Summer', sans-serif ;
+    font-family: 'Syncopate', sans-serif ;
 }
 
 .left-content p{
@@ -321,7 +330,7 @@ body{
 
 .typewriter h1 {
     color: linear-gradient(to right, #420061 0%,#d30cd3 50%, #ff3eff 100%);;
-    font-family: 'Summer';
+    font-family: 'Syncopate';
     overflow: hidden;
     border-right: .15em solid orange; 
     white-space: nowrap;
