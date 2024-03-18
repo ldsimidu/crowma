@@ -1,17 +1,111 @@
-.syncopate-regular {
-    font-family: "Syncopate", sans-serif;
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .syncopate-bold {
-    font-family: "Syncopate", sans-serif;
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
   
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
   
-
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
   .secao:before{
     content: '';
     position: absolute;
@@ -19,7 +113,7 @@
     width: 100%;
     height: 100px;
     background: linear-gradient(to top, white, transparent);
-    z-index: 10000;
+    z-index: 2;
 }
 
 .secao:after{
@@ -29,7 +123,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 10000;
+    z-index: 2;
     mix-blend-mode: color;
 }
 
@@ -79,17 +173,17 @@ body{
 .navbar {
     position: fixed;
     padding-top: 50px;
-    font-family: 'Syncopate', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
     font-size: 18px;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 5;
     transition: background-color 0.3s;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-   color: white;
+    color: white;
     height: 20px;
     padding-right: 50px;
 }
@@ -143,7 +237,6 @@ body{
 
 .principal-header{
     /*background-image: url(images/Design\ sem\ nome.png);*/
-    
     background-size: cover;
     border-top: 1px solid transparent;
     height: 750px;
@@ -158,7 +251,7 @@ body{
 
 
 .gradient {
-    font-family: 'Syncopate', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
     background-image: linear-gradient(to right, #420061 0%,#d30cd3 50%, #ff3eff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -173,7 +266,7 @@ body{
     text-align: center;
     padding-top: 185px;
     color: white;
-    font-family: 'Syncopate', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
 }
 
 .principal-header h2{
@@ -203,7 +296,7 @@ body{
 
 .section-two h1{
     font-size: 25px;
-    font-family: 'Syncopate';
+    font-family: 'Poppins';
     
 }
 
@@ -231,7 +324,7 @@ body{
 
 .section-three h1{
     font-size: 25px;
-    font-family: 'Syncopate';
+    font-family: 'Poppins';
 }
 
 .section-three p{
@@ -264,7 +357,7 @@ body{
 .left-content h1{
     font-size: 60px;
     word-spacing: 2%;
-    font-family: 'Syncopate', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
 }
 
 .left-content p{
@@ -328,9 +421,17 @@ body{
     float: center;
 }
 
+#principal-footer{
+    background-color: #333;
+}
+
+#principal-footer img{
+    width: 5%;
+}
+
 .typewriter h1 {
     color: linear-gradient(to right, #420061 0%,#d30cd3 50%, #ff3eff 100%);;
-    font-family: 'Syncopate';
+    font-family: 'Poppins';
     overflow: hidden;
     border-right: .15em solid orange; 
     white-space: nowrap;

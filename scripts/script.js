@@ -1,4 +1,4 @@
-window.onload = ajustarZoom;
+           
 
             let bg = document.getElementById("bg");
             let moon = document.getElementById("moon");
