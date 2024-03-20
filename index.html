@@ -34,7 +34,7 @@
                 <img id="moon">
                 <img src="images/imgs-assets/mountain.png" id="mountain">
                 <img  id="road">
-                <h2 id="text" class="gradient">CROWMA</h2>
+                <h2 id="text" class="gradient"><b class="poppins-black">CROWMA</b></h2>
             </div>
         </header>
         <main>
@@ -54,7 +54,16 @@
                 </div>
             </section>
 
+
+            <!--SEÇÃO DOIS: "DIFERENCIAIS"-->
+
+
             <section class="section-two">
+
+                <h2 class="text-eq"><b class="gradient">DIFERENCIAIS</b></h2>
+
+                <hr id="hr-sf"> <br> <br>
+
                 <div class="container">
                     <div class="info-block">
                         <img class="icon-img" src="images/icones/dif/deep-learning.png">
@@ -72,10 +81,15 @@
                         <img class="icon-img" src="images/icones/dif/communication.png">
                         <h1>Comunicacao <b style="color: #d30cd3;">Efetiva</b></h1>
                         <hr style="size: 5px; position: relative;">
-                        <p>Sempre deixando o ambiente mais satisfatório para quem contrata nossos serviços, com o objetivo de compor uma intimidade para um comprometimento mais eficaz ao desenvolvimento do software.</p>
+                        <p>Sempre deixando o ambiente mais satisfatório com o objetivo de compor uma intimidade para um comprometimento mais eficaz ao desenvolvimento do software.</p>
                     </div>
                 </div>
             </section>
+
+
+             <!--SEÇÃO TRÊS: "NOSSO PRODUTO"-->
+
+
             <section class="section-three">
                 <div class="container">
                     <div class="info-block">
@@ -93,17 +107,90 @@
                     </div>
                     <div id="linha-vertical-1"></div>
                     <div class="right-content">
-                        <img id="produto-img" src="images/nossoproduto.png">
+                        <img id="img-produto" src="images/nossoproduto.png">
+                        <p id="p-p">Exemplo desenvolvido e disponibilizado para JML Advocacia.</p>
                     </div> 
                 </div>
+            </section>
+
+
+            <!--SEÇÃO QUATRO: "NOSSA EQUIPE"-->
+
+
+            <section class="section-four">
+
+                <h1 class="text-eq">NOSSA <b class="gradient">EQUIPE</b></h1>
+
+                <hr id="hr-sf"> <br>
+
+
+                <!--CARROSSEL-->
+
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext" style="color: black;">1 / 4</div>
+                      <img src="images/OurPhotos/crowma.png" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 4</div>
+                      <img src="images/OurPhotos/us1.jpeg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="images/OurPhotos/us3.jpeg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="images/OurPhotos/us2.jpeg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+
+                  <div id="dot-position" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                  </div>
+
+
+                <!--INTEGRANTES-->
+                
+
+                <div class="container">
+                    <div class="box">
+                        <h2>Heitor Mesquita</h2>
+                        <h3>Gerente Executivo - P.O.</h3>
+                    </div>
+                    <div class="box">
+                        <h2>Lucas Simidu</h2>
+                        <h3>Gerente de Desenvolvimento de Sistemas</h3>
+                    </div>
+                    <div class="box">
+                        <h2>Gabriel Paschoal</h2>
+                        <h3>Gerente Administrativo e Financeiro</h3>
+                    </div>
+                    <div class="box">
+                        <h2>Bernardo Santos</h2>
+                        <h3>Gerente de Projetos</h3>
+                    </div>
+                </div>
+                
             </section>
         </main>
         <footer id="principal-footer">
             <img src="images/Logo.png"><p id="p-footer">© 2024 CROWMA TECNOLOGIA Ltda. Todos os direitos reservados</p>
-                
         </footer>
 
         <script type="text/javascript" src="scripts/script.js"></script>
+        
 
     </body>
 </html>

@@ -1,5 +1,3 @@
-           
-
             let bg = document.getElementById("bg");
             let moon = document.getElementById("moon");
             let mountain = document.getElementById("mountain");
@@ -9,8 +7,8 @@
             window.addEventListener('scroll', function(){
             var value = window.scrollY;
 
-            bg.style.top = value * 0.5 + 'px';
-            moon.style.left = -value * 0.5 + 'px';
+            bg.style.top = value * 0.3 + 'px';
+            moon.style.left = -value * 0.3 + 'px';
             mountain.style.top = -value * 0.15 + 'px';
             road.style.top = value * 0.15 + 'px';
             text.style.top = value * 1 + 'px';
@@ -46,6 +44,37 @@
             }
 
             window.onload = ajustarZoom;
-        
 
-        
+            
+            //PARTE DEDICADA AO CARROSSEL (CAROUSEL)//
+          
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            if (currentSlide(1)) {}
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+
+     
